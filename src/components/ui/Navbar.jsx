@@ -9,12 +9,12 @@ import { IoCloseSharp } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 
 //context
-import AuthContext from "../../context/AuthContext"
+import AuthContext from "../../context/AuthContext";
 
 const NAV_LINKS = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
   { name: "Product", href: "/product" },
+  { name: "About", href: "/about" },
   { name: "Cart", href: "/cart" },
 ];
 
