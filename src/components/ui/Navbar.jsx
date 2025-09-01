@@ -30,7 +30,7 @@ const Navbar = () => {
     ? [
         ...NAV_LINKS,
         { name: "Purchase ", href: "/purchase " },
-        // { name: "Orders", href: "/orders  " },
+        { name: "Orders", href: "/orders  " },
       ]
     : NAV_LINKS;
 
