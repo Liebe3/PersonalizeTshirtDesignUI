@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, use } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
@@ -125,6 +125,7 @@ const PurchasePage = () => {
         timer: 3000,
       });
       clearForm();
+      navigate("/orders");
       setLoading(false);
     }, 2000);
   };
